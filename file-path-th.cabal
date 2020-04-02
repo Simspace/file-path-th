@@ -1,0 +1,30 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 5b0c027e22c952ddc65bdfa7ce34a7f0d2caa187edceadc6b1e63d98f0e787c1
+
+name:           file-path-th
+version:        0.1.0.0
+maintainer:     Dan Fithian
+license:        AllRightsReserved
+build-type:     Simple
+
+library
+  exposed-modules:
+      System.FilePath.TH
+  other-modules:
+      Paths_file_path_th
+  hs-source-dirs:
+      src
+  default-extensions: ConstraintKinds DataKinds DeriveDataTypeable EmptyDataDecls FlexibleContexts FlexibleInstances GADTs GeneralizedNewtypeDeriving LambdaCase MultiParamTypeClasses MultiWayIf NamedFieldPuns NoImplicitPrelude NoMonomorphismRestriction OverloadedStrings QuasiQuotes RankNTypes RecordWildCards ScopedTypeVariables StandaloneDeriving TemplateHaskell TupleSections TypeFamilies ViewPatterns
+  ghc-options: -Wall -Werror -fwarn-tabs -threaded -O2
+  build-depends:
+      base
+    , directory
+    , file-embed
+    , filepath
+    , template-haskell
+  default-language: Haskell2010

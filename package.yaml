@@ -1,0 +1,47 @@
+name: file-path-th
+version: 0.1.0.0
+maintainer: Dan Fithian
+license: AllRightsReserved
+
+default-extensions:
+  - ConstraintKinds
+  - DataKinds
+  - DeriveDataTypeable
+  - EmptyDataDecls
+  - FlexibleContexts
+  - FlexibleInstances
+  - GADTs
+  - GeneralizedNewtypeDeriving
+  - LambdaCase
+  - MultiParamTypeClasses
+  - MultiWayIf
+  - NamedFieldPuns
+  - NoImplicitPrelude
+  - NoMonomorphismRestriction
+  - OverloadedStrings
+  - QuasiQuotes
+  - RankNTypes
+  - RecordWildCards
+  - ScopedTypeVariables
+  - StandaloneDeriving
+  - TemplateHaskell
+  - TupleSections
+  - TypeFamilies
+  - ViewPatterns
+
+ghc-options:
+  - -Wall
+  - -Werror
+  - -fwarn-tabs
+  - -threaded
+  - -O2
+
+dependencies:
+  - base
+  - directory
+  - file-embed
+  - filepath
+  - template-haskell
+
+library:
+  source-dirs: [src]
