@@ -6,6 +6,7 @@ license-file: LICENSE
 synopsis: Template Haskell utilities for filepaths.
 description: Template Haskell utilities for filepaths. This package has utilities for embedding relative filepaths using Template Haskell.
 category: System
+github: Simspace/file-path-th
 
 default-extensions:
   - ConstraintKinds
